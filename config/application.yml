@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-aop
+  profiles:
+    active: dev
+server:
+  port: 8802
+logging:
+  config: config/logback.xml
